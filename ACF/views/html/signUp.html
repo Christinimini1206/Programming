@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Sign Up - VentureSketch</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/css/signUp.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <body>
+    <div class="topnav">
+      <img src="/pictures/VentureSketchLogoWordsRight.png" id="LogoTopLeftAlways">
+      <a class="active" href="/html/signUp.html"> Signup </a>
+      <a href="/html/login.html"> Login </a>
+      <a href="/html/artGallery.html">Art Gallery</a>
+      <a href="/html/listings.html"> Listings </a>
+			<a href="/html/inquiries.html">Inquiries</a>
+      <a href="https://venturesketchblog.lianwang.repl.co/index.html" target="_blank">Blog</a>
+			<a href="/">Home</a>
+		</div>
+
+    <h1>Welcome, New Joiners!</h1>
+    <h2>- Sign Up -</h2>
+    <form action="/userInfo" method="POST">
+      <div id='inputs'>
+        <label></label>
+        <br>
+        <label>First Name<label>
+        <input type='text' id='fname' class='write' placeholder="First Name" name="fName">
+        <br>
+        <label>Last Name<label>
+        <input type='text' id='lname' class='write' placeholder="Last Name" name="lName">
+        <br>
+        <label>&#160;&#160;&#160;&#160;&#160;Email&#160;&#160;&#160;&#160;&#160;<label>
+        <input type='email' id='email' class='write' placeholder="Email" name="email">
+        <br>
+        <label>&#160;&#160;Password&#160;<label>
+        <input type='text' id='pword' class='write' placeholder="Password" name="pword">
+        <br>
+        <!-- <label>Password (Check)</label>
+        <input type='text' class='write'>
+        <br> -->    
+<label>&#160;&#160;&#160;&#160;&#160;Role&#160;&#160;&#160;&#160;&#160;&#160;</label>
+        <select class='write' id="role" name="role">
+          <option selected disabled>Choose Your Role</option>
+          <option value="artist">Artist</option>
+          <option value="NPO">Non-profit Organizer</option>
+        </select>
+      </form>
+      <br>
+      <button id="join" onclick="clickJoin()">Join!</button>
+      <br>
+      <a id="linkToLogin" href="/html/login.html">Already have an account?</a>
+      <br>
+      <label></label>
+    </div>
+    
+    <script src ="/js/signUpjquery.js"></script>
+    <script src="/js/signUp.js"></script>
+  </body>
+</html>

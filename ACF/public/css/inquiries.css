@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+.gallery{
+font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 30px;
+  margin-left: 15%; 
+  text-decoration: none;
+  
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #FF5757;
+  font-size: 90px;
+  margin-top: 10%;
+  margin-left: 15%; 
+} 
+
+/*a{
+   font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-decoration-line: none;
+
+}
+
+a:hover{
+  color: #4ECDC4;
+}*/
+
+h2{
+   font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 50px;
+  margin-left: 15%; 
+}
+
+
+#upload{
+  font-family: 'Raleway', sans-serif;
+}
+
+.uploadArea{
+
+
+  border-radius: 5%;
+  position:fixed;
+  background:white;
+  left: 30vw;
+  width:35vw;
+  top: 20vh;
+  right: 55vw;
+  bottom: 5vh; 
+  padding-top:10vh;
+  padding-left:5vw;
+
+
+}
+
+.title{
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+
+}
+
+.artistName{
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+
+
+}
+
+.commentButton{
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+    background-color: cyan;
+    width:100px;
+    height:30px; 
+}
+
+.leftDivUnderPicture{
+  width:50%;
+}
+.rightDivUnderPicture{
+  width:50%;
+}
+
+
+
+.hide{
+  display: none;
+
+}
+
+
+.show{
+  display: block;
+}
+
+
+
+
+
+
+  
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100px;
+  background-color: #98c3eb;
+  color:white;
+  padding:14px 20px;
+  margin:8px 0;
+  border:none;
+  border-radius: 4px;
+  cursor:pointer;
+ 
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+
+
+li{
+  display:inline;
+   
+}
+
+#showR{
+
+
+  font-family: 'Raleway', sans-serif;
+  font-size:20px;
+  background-color: cyan;
+  width:20%;
+  height:30px;   
+}
+
+table, th, td {
+  border: 5px solid rgb(75, 78, 236);
+  font-family: 'Raleway', sans-serif;
+  font-size:15px;
+  color:lightgray;
+
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+th{
+  height: 70px;
+}
+
+textarea{
+  width: 100%;
+  height: 15%;
+  rows:4; 
+  cols:50;
+}
+
+#divForm {
+  border-radius: 50px;
+  background-color:  #98c3eb;
+  padding: 50px;
+  width: 50%;
+  margin-left: 23%;
+}
+

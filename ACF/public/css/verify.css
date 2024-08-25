@@ -1,0 +1,21 @@
+h1 {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+#finished {
+  background-color: #4ECDC4;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 40%;
+}
+
+#finished:hover {
+  background-color: #4461FB;
+  color: #FFFFFF;
+}

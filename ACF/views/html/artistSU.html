@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Sign Up: Artist - VentureSketch</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/css/artistSU.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+  </head>
+  
+  <!--"firstName": "",
+  "lastName": "",
+  "userName": "",
+  "email": "",
+  "age": "14",
+  "keywords": ["aesthetic", "anime", "classic",  "modern", "natural", "pop", "vibrant", "others"],
+  "level": "",
+  "preference": ""-->
+
+  <!--"keywords": ["aesthetic", "anime", "fineArt", "illustration", "modern", "natural", "pop", "vibrant", "others"],
+      "level": "",
+      "preference": ["poster", "cards", "logo", "others"]-->
+
+  <body>
+    <div class="topnav">
+      <img src="/pictures/VentureSketchLogoWordsRight.png" id="LogoTopLeftAlways">
+      <a class="active" href="/html/signUp.html"> Signup </a>
+      <a href="/html/login.html"> Login </a>
+      <a href="/html/artGallery.html">Art Gallery</a>
+      <a href="/html/listings.html"> Listings </a>
+			<a href="/html/inquiries.html">Inquiries</a>
+      <a href="https://venturesketchblog.lianwang.repl.co/index.html" target="_blank">Blog</a>
+			<a href="/index.html">Home</a>
+		</div>
+		</div>
+
+    <h1>Welcome, New Artists!</h1>
+    <h2>- Sign Up: Artists -</h2>
+    <div class="content">
+      <div class='buttons'> 
+        <br> 
+        <label>Keywords</label><br>
+        <button id="k1" onclick="key1()">Aesthetic</button>
+        <button id="k2" onclick="key2()">Anime</button>
+        <button id="k3" onclick="key3()">Fine Art</button>
+        <button id="k4" onclick="key4()">Pop Art</button>
+        <button id="k5" onclick="key5()">Vibrant</button>
+        <button id="k6"onclick="key6()">Others</button>
+        <br>
+      </div>
+      
+      <div class='buttons'>
+        <label>Level</label><br>
+        <button id="l1" onclick="level1()">Beginner</button>
+        <button id="l2" onclick="level2()">Intermediate</button>
+        <button id="l3" onclick="level3()">Professional</button>
+        <br>
+      </div>
+
+      <div class='buttons'>
+        <label>Preference</label><br>
+        <button id="p1" onclick="prefer1()">Poster</button>
+        <button id="p2" onclick="prefer2()">Cards</button>
+        <button id="p3" onclick="prefer3()">Logos</button>
+        <button id="p4" onclick="prefer4()">Others</button>
+      </div>
+      <button id="join" onclick="clickJoinArt()">Join!</button>
+      <br>  
+      <a href="/html/signUp.html">Back to Sign Up Page</a>
+      <label></label>
+      <br><br>
+    </div>
+    <script src="/js/signUpjquery.js"></script>
+    <script src="/js/signUp.js"></script>
+  </body>
+</html>

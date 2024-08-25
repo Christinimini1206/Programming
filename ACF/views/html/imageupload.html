@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>MY APP</title>
+    </head>
+    <body>
+      <h1> Please enter your image data </h1>
+      
+
+      <form action="/images" method="POST">
+        <input type="text" placeholder="name" name="name">
+        <br>
+        <input type="text" placeholder="title" name="title">
+        <br>
+        <input type="text" placeholder="description" 
+        name="description">
+        <br>
+        <input type="text" placeholder="medium" name="medium">
+        <br>
+        <input type="text" placeholder="non-profit" name="non-profit">
+
+        
+      <input type="file" id="imageFile" name="image" accept="image/gif, image/jpeg, image/png">
+
+
+      <br><br>
+
+
+    <div id="display"></div>
+    <div id="star-six"></div>
+
+
+        <br> </br>
+
+   
+     <button type="submit">Submit</button> 
+    
+    </script>
+ 
+    <script src="loadImg.js"></script>
+      
+    <script src="uploadImg.js"></script>
+
+    <script src="displayImg.js"></script>
+      
+    </body>
+</html>

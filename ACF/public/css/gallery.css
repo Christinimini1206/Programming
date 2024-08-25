@@ -1,0 +1,162 @@
+/*body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: #001BA8;
+}*/
+.gallery{
+font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 30px;
+  margin-left: 15%; 
+  text-decoration: none;
+  
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #FF5757;
+  font-size: 90px;
+  margin-top: 10%;
+  margin-left: 15%; 
+} 
+
+a{
+   font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-decoration-line: none;
+
+}
+
+a:hover{
+  color: #4ECDC4;
+}
+
+h2{
+   font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 50px;
+  margin-left: 15%; 
+}
+
+
+
+/*
+.topnav {
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+  background-color:rgba(0, 16, 99);
+}
+
+.topnav a {
+  float: right;
+  color: #4ECDC4;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-block-start: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+.topnav a:hover {
+  background-color: none;
+  color: #FFFFFF;
+}
+
+.topnav a.active {
+  color: #FF5757;
+}
+
+#LogoTopLeftAlways{
+  padding-top: 0px;
+  padding-right: 30px;
+  padding-left: 10px;
+  margin-left: 2%;
+  height: 110px;
+  width: auto;
+}*/
+
+#upload{
+  font-family: 'Raleway', sans-serif;
+}
+
+.uploadArea{
+
+
+  border-radius: 5%;
+  position:fixed;
+  background:white;
+  left: 30vw;
+  width:35vw;
+  top: 20vh;
+  right: 55vw;
+  bottom: 5vh; 
+  padding-top:10vh;
+  padding-left:5vw;
+
+
+}
+
+.title{
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+
+}
+
+.artistName{
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+
+
+}
+
+.commentButton{
+     font-family: 'Raleway', sans-serif;
+    font-size:20px;
+    background-color: cyan;
+    width:100px;
+    height:30px; 
+}
+
+.leftDivUnderPicture{
+  width:50%;
+}
+.rightDivUnderPicture{
+  width:50%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  margin-bottom: 20px;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+  
+}
+ .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 8px;
+}
+
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 8px;
+  color: white;
+}
+
+.column img {
+  margin-top: 10px;
+  vertical-align: middle;
+  width: 100%;
+}

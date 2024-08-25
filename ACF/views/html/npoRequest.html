@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+
+
+  </head>
+  <body id ='myBody' onload="NPOsignIn()">
+    <div class="topnav">
+		<img src="VentureSketchLogoWordsRight.png" id="LogoTopLeftAlways">
+      <a href="signUp.html"> Signup </a>
+      <a href="login.html"> Login </a>
+      <a href="gallery.html">Art Gallery</a>
+			<a class="active"  href="inquiries.html">Inquiries</a>
+      <a href="https://venturesketchblog.lianwang.repl.co/index.html" target="_blank">Blog</a>
+			<a href="#home">Home</a>	
+		</div> 
+
+
+    <section id="gettingRequest" class ="show">
+
+
+   
+     <!-- <img src="VentureSketchLogo.png" alt="VentureSketch" width="300px" height="300px">-->
+
+
+      <button id ="showR">
+        Submitted Requests 
+      </button>
+      
+      
+      <div id="divForm">
+        <label for="request">How can we help?</label>
+        <select name="request" id="request">
+          <option value="Logo ">Logo</option>
+          <option value="Poster">Poster</option>
+          <option value="Buttons">Buttons</option>
+          <option value="Websitedesign">Website design</option>
+          <option value="infographics">Infographics</option>
+          <option value="Icon"> Icons </option>
+          <option value="template">Slide/ppt template</option>
+          <option value="Others">Others</option>
+        </select>
+        <br><br>
+
+  
+        <label for="information ">Information for artist</label>
+        <textarea id="informationForArtist" name="information" >
+        </textarea>
+        <br><br>
+
+        <label for="eventName ">Event Name</label>
+        <input type="text" id="eventName" name="eventName">
+        <br><br>
+
+        <label for="duedate ">Due Date</label>
+        <input type="date" id="duedate" name="duedate">
+        <br><br>
+
+
+        <input type="submit" value="Submit" onclick="sendRequest()" >
+        
+
+      </div>
+    </section>
+   
+    <section id ="showingRequest" class ="hide">
+      <h2> Help NPOs with your creative designs!</h2>
+      <h2> Click on the ones you would like to implement <br>your artistic skill on!</h2>
+    </section> 
+
+    <script src="jquery-3.5.1.js"></script>
+    <script src="script.js"></script>
+    <script src="sample.js"></script>
+    
+  </body>
+</html>

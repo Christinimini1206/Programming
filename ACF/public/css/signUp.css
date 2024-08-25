@@ -1,0 +1,64 @@
+body{
+  /*background: linear-gradient(to top, #ff6b6b 0%, #ffe06d 87%); */
+  //background-color: #001BA8;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+h1, h2, label, a{
+  color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+a:hover{
+  color: #016E60;
+}
+
+#linkToLogin, #linkToForgot{
+  font-size: 15px;
+  margin: 30px;
+}
+
+#inputs{
+  background: #4ECDC4;
+  border-radius: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  /*margin: 10px 10px 10px 10px;*/
+  margin: 0% 32%;
+  text-align: center;
+}
+
+label{
+  margin: 10px;
+}
+
+input, select{
+  margin: 5px;
+}
+
+#join{
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  color: #4ECDC4;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  margin: 30px 30px 30px;
+}
+
+#join:hover{
+  background-color: #016E60;
+  color: #FFFFFF;
+}
+
+.write{
+  border: none;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  height: 25px;
+  width: 50%;
+}
+

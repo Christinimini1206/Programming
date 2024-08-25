@@ -1,0 +1,170 @@
+    body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: #001BA8;
+}
+.gallery{
+font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 30px;
+  margin-left: 15%; 
+  text-decoration: none;
+  
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #FF5757;
+  font-size: 90px;
+  margin-top: 10%;
+  margin-left: 15%; 
+}
+
+a{
+   font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-decoration-line: none;
+
+}
+
+a:hover{
+  color: #4ECDC4;
+}
+
+h2{
+   font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 50px;
+  margin-left: 15%; 
+}
+.topnav {
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+  background-color:rgba(0, 16, 99);
+}
+
+.topnav a {
+  float: right;
+  color: #4ECDC4;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-block-start: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  background-color: none;
+  color: #FFFFFF;
+}
+
+.topnav a.active {
+  color: #FF5757;
+}
+
+#LogoTopLeftAlways{
+  padding-top: 0px;
+  padding-right: 30px;
+  padding-left: 10px;
+  margin-left: 2%;
+  height: 110px;
+  width: auto;
+}
+
+ #inputs, a{
+  color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+#commentit{
+  color: white;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+}
+
+
+
+#linkbackn:hover{
+  color: #FF5757;
+   font-size: 15px;
+  margin: 30px;
+}
+
+
+
+#inputs{
+  background: #4ECDC4;
+  border-radius: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  margin: 0% 32%;
+}
+
+label{
+  margin: 10px;
+}
+
+   #respond {
+  margin-top: 40px;
+}
+
+#respond input[type='text'],
+#respond input[type='email'],
+#respond textarea {
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+
+  line-height: 1.4em;
+}
+
+input, select{
+  margin: 5px;
+}
+
+button{
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  color: #4ECDC4;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  margin: 30px 30px 30px;
+}
+
+button:hover{
+  background-color: #4461FB;
+  color: #FFFFFF;
+}
+
+.write{
+  border: none;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  height: 25px;
+  width: 200px;
+}
+
+.write:hover{
+  border-color: #FF5757;
+}
+
+**.topnav {
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+  background-color:rgba(0, 16, 99);
+}
+

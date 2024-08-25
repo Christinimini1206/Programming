@@ -1,0 +1,45 @@
+#slogan {
+  margin-top: 10%;
+  margin-left: 15%;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFC8C8;
+  font-size: 7vw;
+  z-index: 3;
+}
+
+.circle {
+  position: relative;
+  width: 800px;
+  height: 800px;
+  background-color: #F0BE93;
+  border-radius: 50%;
+  opacity: 50%;
+  margin-left: -47%;
+  margin-top: -30%;
+}
+
+#circle1{
+  z-index:1;
+  margin-left: -47%;
+  margin-top: -32%;
+}
+
+#circle2{
+  z-index:2;
+  margin-left: -20%;
+  margin-top: -40%;
+}
+
+.browseLinks a{
+  color: #FF5757;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size:  40px;
+  background-color: rgb(233, 233, 233);
+  text-decoration: none;
+}
+
+#browseArtGallery a{
+  position: relative;
+  margin-bottom: 400px;
+}

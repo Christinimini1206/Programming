@@ -1,0 +1,63 @@
+h1, h2{
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+label{
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.content{
+  background-color: #4ECDC4;
+  border-radius: 20px;
+  margin: 0px 30%;
+  text-align: center;
+}
+
+#compName, #compDesc{
+  border: none;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  height: 25px;
+  margin: 15px 2px;
+  width: 50%;
+}
+
+textarea{
+  min-width: 80%;
+  max-width: 80%;
+  min-height: 100px;
+  max-height: 100px;
+  height:100%;
+  width:100%;
+}
+
+#join{
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  color: #4ECDC4;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  margin: 30px 30px 30px;
+}
+
+#join:hover{
+  background-color: #4461FB;
+  color: #FFFFFF;
+}
+
+a{
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+}
+
+a:hover{
+  color: #4461FB;
+}
+

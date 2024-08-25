@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+}
+
+p{
+  font-size: 40px;
+  overflow: auto;
+}
+
+#pgTitle {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 90px;
+  margin-top: 2%;
+  margin-left: 5%; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  margin-bottom: 20px;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+  
+}
+
+ .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 8px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 8px;
+}
+
+.column img {
+  margin-top: 10px;
+  vertical-align: middle;
+  width: 95%;
+  border-radius: 20px;
+}
+
+#imageInfo {
+  display: block;
+  width: 90%;
+}
+
+
+.imgDisplay {
+  /*position:relative;*/
+  background:#175a4d;
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+  left: 10vw;
+  /*width:40vw;*/
+  top: 20vh;
+  right: 50vw;
+  bottom: 5vh; 
+  padding-top:10vh;
+  padding-left:5vw;
+  box-shadow: 0 4px 8px 0 #175a4d6b, 0 6px 20px 0 #175a4d6b;
+}
+
+.centered{
+  display: absolute;
+	margin-left: 50px;
+}
+
+.imgWrapper{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.imageFrame{
+	position: absolute;
+
+}
+
+.imgInfo {
+  background-color: #2F6C60;
+  /*position:fixed;*/
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;
+  width:40vw;
+  top: 20vh;
+  left: 50vw;
+  bottom:5vh;
+  right:10vw;	
+  padding-left: 5%;
+  padding-top: 5%;
+  box-shadow: 0 4px 8px 0 #175a4d6b, 0 6px 20px 0 #175a4d6b;
+}
+.relatedImgs{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+}
+
+
+/* #card {
+    position:fixed;
+    left: 5vw;
+    width:60vw;
+    top: 10vh;
+    bottom: 5vh;
+    border-radius:3vmin;
+    background-repeat: no-repeat;
+      background-size: contain, cover;
+    background-color: white;	            
+  }
+      
+  #toolbar {
+    position:fixed;
+      overflow-y: scroll;
+      padding:1vmin;
+      width:28vw;
+      top: 5vh;
+      left: 70vw;
+      bottom:0;
+      right:0;	            
+      background:white;
+      font-size:2vmin
+  }*/

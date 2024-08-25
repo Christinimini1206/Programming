@@ -1,0 +1,62 @@
+h1, h2, label{
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+label{
+  font-size: 25px;
+  margin: 10px 0px;
+}
+
+.content{
+  background-color: #4ECDC4;
+  border-radius: 20px;
+  text-align: center;
+  margin: 0px 30%;
+}
+
+#join{
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  color: #4ECDC4;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  margin: 30px 30px 30px;
+}
+
+#join:hover{
+  background-color: #4461FB;
+  color: #FFFFFF;
+}
+
+a{
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  margin: 20px;
+}
+
+a:hover{
+  color: #001BA8;
+}
+
+button{
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  color: #4ECDC4;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  margin: 2px;
+}
+
+button:hover{
+  background-color: #001BA8;
+  color: #ffffff;
+}
+
+.buttons{
+  margin: 0px 0px 15px 0px 
+}

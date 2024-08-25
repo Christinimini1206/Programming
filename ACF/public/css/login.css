@@ -1,0 +1,74 @@
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+}
+
+h1, h2, #inputs, a{
+  color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+#linkToLogin, #linkToForgot{
+  font-size: 15px;
+  margin: 30px;
+}
+
+#linkToLogin:hover{
+  color: #001BA8;
+}
+
+#linkToForgot:hover{
+  color: #FF5757;
+}
+
+#inputs{
+  background: #4ECDC4;
+  border-radius: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  margin: 0% 32%;
+}
+
+label{
+  margin: 10px;
+}
+
+input, select{
+  margin: 5px;
+}
+
+button{
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  color: #4ECDC4;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  margin: 30px 30px 30px;
+}
+
+button:hover{
+  background-color: #4461FB;
+  color: #FFFFFF;
+}
+
+.write{
+  border: none;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  height: 25px;
+  width: 200px;
+}
+
+.write:hover{
+  border-color: #FF5757;
+}
+
+**.topnav {
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+  background-color:rgba(0, 16, 99);
+}
+

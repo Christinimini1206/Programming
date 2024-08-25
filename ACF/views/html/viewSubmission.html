@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Submissions - VentureSketch</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/css/viewSubmission.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="topnav">
+      <img src="/pictures/VentureSketchLogoWordsRight.png" id="LogoTopLeftAlways">
+      <a class="active" href="/html/signUp.html"> Signup </a>
+      <a href="/html/login.html"> Login </a>
+      <a href="/html/artGallery.html">Art Gallery</a>
+      <a href="/html/listings.html"> Listings </a>
+			<a href="/html/inquiries.html">Inquiries</a>
+      <a href="https://venturesketchblog.lianwang.repl.co/index.html" target="_blank">Blog</a>
+			<a href="../index.html">Home</a>
+		</div>
+    
+    <h1 class='text'>View Artwork Submissions</h1>
+
+    <div class='row'>
+      <div class='column' id='areaView'>
+        <h2 class='text'>Title of the Artwork: </h2>
+        <h2 class='text' id='artTitle'> </h2>
+    
+        <img id='biggerImage'>
+
+      </div>
+
+      <!--Show Request-->
+      <div class='column' id='areaRemain'>
+        <h2 class='text'>Submitted Artworks</h2>
+        
+        <!--
+        <br><br>
+        <h3 class='text'>There are no created requests from you currently.</h3>
+        <a href='https://jinny.betterjs.repl.co/index.html' class='text' id='newRequest'>Create a New Request</a>
+        -->
+        
+        <button class='collapsible' id='textRequest'>Request 1: ACF</button>
+				<div class='hidden' id='artworks' >
+         
+				</div>
+        <h3 class='text'>Click on an artwork to view more information.<br></h3>
+      </div>
+    </div>
+
+    <script src ="/js/viewSubmission.js"></script>
+  </body>
+</html>

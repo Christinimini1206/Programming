@@ -1,0 +1,100 @@
+.text {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+#newRequest {
+  color: white;
+  text-align: center;
+}
+
+#newRequest:hover {
+  color: #4461FB;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#areaView {
+  background-color: #4ECDC4;
+  border-radius: 20px;
+  margin: 10px 30px 10px 10px;
+  width: 32%;
+  height:100%;
+}
+
+#areaRemain {
+  background-color: #4ecdc4; 
+  border-radius: 20px;
+  margin: 10px 10px 10px 10px;
+  width: 60%;
+  height:100%;
+}
+
+.hidden{
+  padding: 0px 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.collapsible{
+    background-color: #FF5757;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0px;
+    outline: none;
+    padding: 1vmin;
+    text-align: center;
+    width: 100%;
+}
+
+.collapsible:hover, #textRequest:hover {
+    background-color: #ff8d8d;
+}
+
+#textRequest {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.hidden {
+  background-color: white;
+}
+
+.imgbtn{
+  margin: 1%;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+#biggerImage{
+  width:90%;
+  height:70%;
+}
